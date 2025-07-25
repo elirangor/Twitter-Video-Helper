@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitter Video Helper</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding: 15px;
+      background: #1e1e1e;
+      color: white;
+      min-width: 200px;
+    }
+
+    button {
+      background-color: #1da1f2;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin-top: 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      width: 100%;
+      transition: background 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #0d8ddb;
+    }
+
+    #toast {
+      display: none;
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      background: #323232;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 13px;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+  <button id="copy-link">Quote Video</button>
+  <button id="download">Download Video</button>
+  <div id="toast"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
