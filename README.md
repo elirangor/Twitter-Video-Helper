@@ -3,7 +3,7 @@
 A simple Chrome extension that helps you:
 
 - Copy tweet links with `/video/1` for quoting
-- (Soon) Download Twitter/X videos
+- Download Twitter/X videos (MP4) or open a GIF converter
 
 ### ✅ Features
 - Automatically detects tweet URL in the current tab
@@ -13,7 +13,7 @@ A simple Chrome extension that helps you:
 - Lightweight and fast
 
 ### 🚀 Coming Soon
-- Direct video download support
+- Additional download options
 
 ### 🧩 Installation
 1. Clone or download this repo.
