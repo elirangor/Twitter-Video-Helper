@@ -3,8 +3,8 @@
   "name": "Twitter Video Helper",
   "version": "1.0",
   "description": "Copy tweet link with /video/1 for quoting.",
-  "permissions": ["scripting", "activeTab", "clipboardWrite"],
-  "host_permissions": ["*://twitter.com/*", "*://x.com/*"],
+  "permissions": ["scripting", "activeTab", "clipboardWrite", "downloads"],
+  "host_permissions": ["*://twitter.com/*", "*://x.com/*", "*://*.twimg.com/*"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon.png"
