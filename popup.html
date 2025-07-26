@@ -40,12 +40,34 @@
       font-size: 13px;
       z-index: 9999;
     }
+
+    .credit {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #ccc;
+      text-align: center;
+    }
+
+    .credit a {
+      color: #1da1f2;
+      text-decoration: none;
+    }
+
+    .credit a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <button id="copy-link">Quote Video</button>
   <button id="download">Download Video</button>
   <div id="toast"></div>
+
+  <div class="credit">
+    Just a little something from
+    <a href="https://www.linkedin.com/in/elirang/" target="_blank">Eliran</a> |
+    <a href="https://github.com/elirangor/Twitter-Video-Helper" target="_blank">View on GitHub</a>
+  </div>
 
   <script src="popup.js"></script>
 </body>
