@@ -20,3 +20,7 @@
 * Go to `chrome://extensions/`
 * Enable `Developer Mode`
 * Click `Load unpacked` and select the folder
+
+## 📄 License
+
+MIT – free to use and modify.
