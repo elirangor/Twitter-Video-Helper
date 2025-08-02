@@ -1,6 +1,6 @@
-# Twitter Video Helper - Chrome Extension
+# Twitter Video Quote Button - Chrome Extension
 
-🔗 A simple Chrome extension to easily manage Twitter/X videos.
+🔗 A simple Chrome extension to easily quote Twitter/X videos.
 
 ## ✅ Features
 
@@ -9,10 +9,6 @@
 * Non-blocking toast notification
 * Modern UI
 * Lightweight and fast
-
-## 🚀 Coming Soon
-
-* Direct video download support
 
 ## 🔧 Installation
 

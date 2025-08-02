@@ -6,39 +6,16 @@
     body {
       font-family: 'Segoe UI', sans-serif;
       padding: 15px;
-      background: #ffffff; /* white background */
-      color: #333; /* dark text for contrast */
+      background: #ffffff;
+      color: #333;
       min-width: 200px;
+      text-align: center;
     }
 
-    button {
-      background-color: #1da1f2;
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      margin-top: 10px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 14px;
-      width: 100%;
-      transition: background 0.2s ease;
-    }
-
-    button:hover {
-      background-color: #0d8ddb;
-    }
-
-    #toast {
-      display: none;
-      position: fixed;
-      bottom: 10px;
-      left: 10px;
-      background: #323232;
-      color: #fff;
-      padding: 10px 15px;
-      border-radius: 5px;
-      font-size: 13px;
-      z-index: 9999;
+    .message {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
     }
 
     .credit {
@@ -59,16 +36,14 @@
   </style>
 </head>
 <body>
-  <button id="copy-link">Quote Video</button>
-  <button id="download">Download Video</button>
-  <div id="toast"></div>
+  <div class="message">
+    Look at the right side of the video to quote it
+  </div>
 
   <div class="credit">
     Just a little something from
-    <a href="https://www.linkedin.com/in/elirang/" target="_blank">Eliran</a> 
+    <a href="https://www.linkedin.com/in/elirang/" target="_blank">Eliran</a>
     <a href="https://github.com/elirangor/Twitter-Video-Helper" target="_blank">View on GitHub</a>
   </div>
-
-  <script src="popup.js"></script>
 </body>
 </html>

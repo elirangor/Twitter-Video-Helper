@@ -16,7 +16,7 @@ document.getElementById("copy-link").addEventListener("click", () => {
     if (match) {
       const videoLink = match[0] + "/video/1";
       navigator.clipboard.writeText(videoLink).then(() => {
-        showToast("Copied: /video/1 added!");
+        showToast("Quote video button added");
       }).catch(() => {
         showToast("Clipboard copy failed.");
       });
@@ -24,8 +24,4 @@ document.getElementById("copy-link").addEventListener("click", () => {
       showToast("Not a valid tweet URL.");
     }
   });
-});
-
-document.getElementById("download").addEventListener("click", () => {
-  showToast("Download coming soon!");
 });
