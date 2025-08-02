@@ -3,7 +3,7 @@
   "name": "Twitter Video Quote Button",
   "version": "1.1",
   "description": "Copy tweet link with /video/1 for quoting.",
-  "permissions": ["scripting", "activeTab", "clipboardWrite", "contextMenus"],
+  "permissions": ["scripting", "activeTab", "clipboardWrite"],
   "host_permissions": ["*://twitter.com/*", "*://x.com/*"],
   "action": {
     "default_popup": "popup.html",
